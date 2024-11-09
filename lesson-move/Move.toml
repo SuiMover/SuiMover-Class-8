@@ -1,0 +1,14 @@
+[package]
+name = "lesson"
+version = "1.0.0"
+edition = "2024.beta"
+authors = ["Jeric@TypusFinance"]
+published-at = "0x95a59510bbc3bca1575939c510483013fc614fdaefb5793b361bd3bd4479270d"
+
+[dependencies.Sui]
+git = "https://github.com/MystenLabs/sui.git"
+subdir = "crates/sui-framework/packages/sui-framework"
+rev = "mainnet"
+
+[addresses]
+lesson = "0x95a59510bbc3bca1575939c510483013fc614fdaefb5793b361bd3bd4479270d"
